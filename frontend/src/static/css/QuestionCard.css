@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@media screen and (min-width: 900px) {
+.container {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.question {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #34354f;
+    margin-bottom: 5vw;
+    font-size: 1.9vw;
+}
+
+.all-radio-agree{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  transition: all 0.15s ease-out 0s;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  border: 2px solid rgba(78, 182, 92, 0.7);
+}
+
+.all-radio-disagree{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    transition: all 0.15s ease-out 0s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    border: 2px solid rgb(223, 83, 83, 0.7);
+  }
+
+  .all-radio-neutral{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    transition: all 0.15s ease-out 0s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    border: 2px solid rgba(246, 215, 101, 0.7);
+    ;
+  }
+
+.all-radio-disagree:hover {
+    background: rgb(223, 83, 83, 0.8);
+  }
+
+.all-radio-agree:hover {
+    background: rgba(78, 182, 92, 0.8);
+  }
+
+.all-radio-neutral:hover {
+    background: rgba(246, 215, 101, 0.8);
+  }
+
+  .all-radio-disagree:checked {
+    background: rgb(223, 83, 83, 0.8);
+  }
+
+.all-radio-agree:checked {
+    background: rgba(78, 182, 92, 0.8);
+  }
+
+.all-radio-neutral:checked {
+    background: rgba(246, 215, 101, 0.8);
+  }
+
+  .all-radio:checked::after {
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .all-radio.radio {
+    border-radius: 50%;
+  }
+  .all-radio.radio::after {
+    border-radius: 50%;
+  }
+
+.radio{
+    margin-left: 2.1vw;
+    margin-right: 2.1vw;
+}
+
+.two {
+    transform: scale(3.5);
+}
+
+.one {
+    transform: scale(3.0);
+}
+
+.zero {
+    transform: scale(2.7);
+}
+
+.radio-container {
+    margin-bottom: 4%;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.question {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #34354f;
+    margin-bottom: 5vw;
+    font-size: 5.7vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6vw;
+}
+
+.all-radio-agree{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  transition: all 0.15s ease-out 0s;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  border: 2px solid rgba(78, 182, 92, 0.7);
+}
+
+.all-radio-disagree{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    transition: all 0.15s ease-out 0s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    border: 2px solid rgb(223, 83, 83, 0.7);
+  }
+
+  .all-radio-neutral{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    transition: all 0.15s ease-out 0s;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    border: 2px solid rgba(246, 215, 101, 0.7);
+    ;
+  }
+
+.all-radio-disagree:hover {
+    background: rgb(223, 83, 83, 0.8);
+  }
+
+.all-radio-agree:hover {
+    background: rgba(78, 182, 92, 0.8);
+  }
+
+.all-radio-neutral:hover {
+    background: rgba(246, 215, 101, 0.8);
+  }
+
+  .all-radio-disagree:checked {
+    background: rgb(223, 83, 83, 0.8);
+  }
+
+.all-radio-agree:checked {
+    background: rgba(78, 182, 92, 0.8);
+  }
+
+.all-radio-neutral:checked {
+    background: rgba(246, 215, 101, 0.8);
+  }
+
+  .all-radio:checked::after {
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .all-radio.radio {
+    border-radius: 50%;
+  }
+  .all-radio.radio::after {
+    border-radius: 50%;
+  }
+
+.radio{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.two {
+    transform: scale(3.5);
+}
+
+.one {
+    transform: scale(3.0);
+}
+
+.zero {
+    transform: scale(2.7);
+}
+
+.radio-container {
+    margin-bottom: 8%;
+}
+
+
+}
+
+
+
+
+
+

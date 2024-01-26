@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.slider {
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 10%;
+    transform: scale(2.5);
+    margin-top: 10%;
+    color: #34354f;
+    z-index: 3000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    left: 10%;
+    transform: scale(2.5);
+    margin-top: 10%;
+    color: #34354f;
+    z-index: 3000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.right-arrow:hover, .left-arrow:hover {
+    transform: scale(3.0);
+}
+
+@media screen and (min-width: 900px) {
+#error {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25vw;
+  text-align: center;
+  color: rgb(223, 83, 83);
+  display: none;
+}
+
+.submit-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25vw;
+    color: #f6ebe3;
+    animation: bgcolor 10s infinite;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    margin-left: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: none;
+  }
+
+  .submit-btn:hover {
+    background-color: #34354f !important;
+    transition: 3s !important;
+  }
+  
+  .prev-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5vw;
+    color: #f6ebe3;
+    background-color: #606288;
+    /* animation: bgcolor 10s infinite; */
+    border-radius: 3vw;
+    cursor: pointer;
+    margin-left: 19%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1.2%;
+    padding-bottom: 1%;
+    border: none;
+    display: inline-block;
+    justify-content: space-between;
+
+  }
+
+  .next-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5vw;
+    color: #f6ebe3;
+    background-color: #606288;
+    /* animation: bgcolor 10s infinite; */
+    border-radius: 3vw;
+    cursor: pointer;
+    margin-left: 54%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1.2%;
+    padding-bottom: 1%;
+    border: none;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .page-btns {
+    margin-top: 2.5%;
+  }
+
+  .next-btn:hover {
+    background-color: #34354f !important;
+  }
+
+  .prev-btn:hover {
+    background-color: #34354f !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .submit-btn {
+        margin-top: 2%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 4vw;
+        color: #f6ebe3;
+        animation: bgcolor 10s infinite;
+        border-radius: 5vw;
+        cursor: pointer;
+        margin-left: 33.7%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border: none;
+      }
+
+      #error {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3.25vw;
+        text-align: center;
+        color: rgb(223, 83, 83);
+        display: none;
+      }
+    
+      .submit-btn:hover {
+        background-color: #34354f !important;
+        transition: 3s !important;
+      }
+
+      .prev-btn {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3vw;
+        color: #f6ebe3;
+        background-color: #606288;
+        /* animation: bgcolor 10s infinite; */
+        border-radius: 3vw;
+        cursor: pointer;
+        margin-left: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border: none;;
+        display: inline-block;
+        justify-content: space-between;
+    
+      }
+    
+      .next-btn {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3vw;
+        color: #f6ebe3;
+        background-color: #606288;
+        /* animation: bgcolor 10s infinite; */
+        border-radius: 3vw;
+        cursor: pointer;
+        margin-left: 70%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border: none;
+        display: inline-block;
+        justify-content: space-between;
+      }
+
+      .next-btn:hover {
+        background-color: #34354f !important;
+      }
+    
+      .prev-btn:hover {
+        background-color: #34354f !important;
+      }
+    
+}
+
+
+

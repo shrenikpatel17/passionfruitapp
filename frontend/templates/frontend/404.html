@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Not Found</title>
+      </head>
+<h1 class="error">404</h1>
+<h3 class="error-text">looks like you're lost!</h3>
+{% comment %} <img class="logo" src="./image/logo404.png"></img> {% endcomment %}
+<a href="/" class="home-btn">click for home</a>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+    body {background-color: #f6ebe3;}
+
+    @keyframes bgcolor {
+        0% {background-color: rgb(66, 75, 125);}
+        25%{background-color:rgb(150, 118, 174);}
+        50%{background-color:rgb(235, 133, 75);}
+        75%{background-color:rgb(223, 83, 83);}
+        100% {background-color: rgb(66, 75, 125);}
+      }
+    @media screen and (min-width: 900px) {
+    .error { 
+        color: #34354f; 
+        font-size: 12vw;
+        text-align: center;
+        margin-top: 12vw;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .error-text{
+        color: #34354f; 
+        font-size: 1.5vw;
+        text-align: center;
+        margin-top: -7vw;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+    .logo{
+        translate: scale(3);
+    }
+
+    .home-btn {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.25vw;
+        color: #f6ebe3;
+        animation: bgcolor 10s infinite;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        margin-left: 43%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1.2%;
+        padding-bottom: 1.2%;
+        text-decoration: none;
+      }
+
+    .home-btn:hover {
+        background-color: #34354f;
+        animation: none;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .error{
+        color: #34354f; 
+        font-size: 25vw;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 50vw;
+    }
+
+    .error-text{
+        color: #34354f; 
+        font-size: 5vw;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: -15vw;
+        margin-bottom: 8vw;
+    }
+
+    .home-btn {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3.5vw;
+        color: #f6ebe3;
+        animation: bgcolor 10s infinite;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        margin-left: 35%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-decoration: none;
+        transform: scale(3);
+      }
+
+      .home-btn:hover {
+        background-color: #34354f;
+        animation: none;
+
+    }
+
+}
+
+
+
+</style>

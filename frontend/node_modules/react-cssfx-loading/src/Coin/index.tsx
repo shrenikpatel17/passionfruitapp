@@ -1,0 +1,20 @@
+import React from "react";
+import Styles from "./Coin.module.css";
+
+interface CoinProps {
+  className?: string;
+  color?: string;
+  width?: number | string;
+  height?: number | string;
+  duration?: string;
+}
+
+const Coin: React.FC<CoinProps & React.HTMLProps<HTMLDivElement>> = ({ className = "", color = "#0d6efd", width = "2em", height = "2em", style, duration = "1.2s", ...others }) => {
+  return (
+    <div {...others} style={{ ...style, ["--width" as any]: width, ["--height" as any]: height, ["--color" as any]: color, ["--duration" as any]: duration }} className={`${Styles.box} ${className}`}>
+      <div className={Styles.coin}></div>
+    </div>
+  );
+};
+
+export default Coin;

@@ -1,0 +1,538 @@
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #34354f;
+  }
+
+  .whole {
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 900px) {
+  
+    .main-text {
+    font-size: 4vw;
+  }
+
+  .info-text {
+    font-size: 1.5vw;
+  }
+
+  .brief-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  .card-bg-1 {
+    background-color:rgba(255, 99, 132, 0.35);
+    /* background-color: rgba(183, 241, 205, 0.5); */
+  }
+
+  .card-bg-2 {
+    background-color:rgba(255, 159, 64, 0.35);
+    /* background-color: rgba(166, 229, 190, 0.5); */
+  }
+
+  .card-bg-3 {
+    background-color:rgba(255, 205, 86, 0.35);
+    /* background-color: rgba(140, 214, 168, 0.5); */
+  }
+
+  .card-bg-4 {
+    background-color:rgba(75, 192, 192, 0.35);
+    /* background-color: rgba(128, 200, 156, 0.5); */
+  }
+
+  .card-bg-5 {
+    background-color:rgba(54, 162, 235, 0.35);
+    /* background-color: rgba(112, 171, 135, 0.5); */
+  }
+
+  .brief-text{
+    font-size: 1.25vw;
+  }
+
+  .result-title{
+    font-size: 4.0vw;
+    text-align: center;
+  }
+
+  .def-title{
+    font-size: 2.5vw;
+    text-align: center;
+  }
+
+  .info-section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30.7%;
+  }
+
+  .column{
+    float: left;
+    width: 20%;
+  }
+
+  .column-2 {
+    float: left;
+    width: 50%;
+  }
+
+  .title-card{
+    margin-left: 2%;
+    font-size: 2vw;
+    margin-top: -8%;
+    text-align: center;
+  }
+
+  .def-card{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+  }
+
+  .sw-card{
+    margin-left: 22%;
+    margin-right: 22%;
+    text-align: center;
+    line-height: 1.7vw;
+    font-size: 1.25vw;
+  }
+
+  .card-def{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 25px;
+    margin-right: 5%;
+  }
+
+  .summary-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -6%;
+  }
+
+  .summary-card {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 25px;
+  }
+
+  .summary-title {
+    margin-left: 2%;
+    font-size: 2.5vw;
+    margin-top: -2%;
+  }
+
+  .summary-text {
+    font-size: 1.25vw;
+    margin-left: 2%;
+    margin-right: 3%;
+    line-height: 1.5vw;
+  }
+
+  .extra-margin-bottom {
+    margin-bottom: 20%;
+  }
+
+  .bar-chart {
+    margin-left: 8%;
+    margin-right: 42%;
+    transform: scale(1);
+    margin-bottom: 2%;
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1%;
+    border-radius: 25px;
+  }
+
+  .pie-chart {
+    margin-right: 5%;
+    margin-left: 55%;
+    margin-top: -35%;
+    margin-bottom: -25%;
+    transform: scale(.7);
+    margin-bottom: 2%;
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 25px;
+  }
+
+  .sw-section{
+    margin-top: -5.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25%;
+  }
+
+  .sw-title{
+    font-size: 2.5vw;
+    margin-top: -6%;
+    text-align: center;
+  }
+
+  .strengths-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    /* background-color:rgba(75, 192, 192, 0.15); */
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    border-radius: 25px;
+    margin-right: 5%;
+  }
+
+  .ambig-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    /* background-color:rgba(255, 99, 132, 0.15); */
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    border-radius: 25px;
+    margin-left: 5%;
+  }
+
+  .tips-section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+  }
+
+  .tips-title {
+    font-size: 2.5vw;
+    margin-top: -6%;
+    text-align: center;
+  }
+
+  .tips-text {
+    font-size: 1.25vw;
+    text-align: center;
+    line-height: 3vh;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .tips-card {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    border-radius: 25px;
+    margin-right: 35%;
+  }
+
+  .meditate-container{
+    position: relative;
+    margin-left: 65%;
+    margin-right: 5%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  
+  .meditate-img {
+    transform: scale(1.1);
+    z-index: 2000;
+    position: absolute; 
+    margin-top: -120%;
+    margin-left: -7%;
+    width: 100%;
+    height: auto;
+  }
+
+  .last-pill-container{
+    margin-left: 82.5%;
+    margin-right: 5%;
+    margin-top: -38.7%;
+  }
+  
+  .right-pill-img {
+    margin-right: 5%; 
+    margin-bottom: -20%;
+    padding-top: 25%;
+    padding-bottom: 175%;   
+    animation: bgcolor 10s infinite;
+    border-radius: 4vw;
+  }
+
+  .defpic-container{
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  
+  .defpic-img {
+    transform: scale(1.0);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    margin-left: -25%;
+    margin-top: -40%;
+    height: auto;
+  }
+
+  .footer-section{
+      position: relative;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-text {
+    font-size: 8vw;
+  }
+
+  .info-text {
+    font-size: 4vw;
+  }
+
+  .result-title {
+    font-size: 6.5vw;
+    margin-top: 10%;
+  }
+
+  .brief-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  .brief-text {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .card-bg-1 {
+    background-color:rgba(255, 99, 132, 0.35);
+    /* background-color: rgba(183, 241, 205, 0.5); */
+  }
+
+  .card-bg-2 {
+    background-color:rgba(255, 159, 64, 0.35);
+    /* background-color: rgba(166, 229, 190, 0.5); */
+  }
+
+  .card-bg-3 {
+    background-color:rgba(255, 205, 86, 0.35);
+    /* background-color: rgba(140, 214, 168, 0.5); */
+  }
+
+  .card-bg-4 {
+    background-color:rgba(75, 192, 192, 0.35);
+    /* background-color: rgba(128, 200, 156, 0.5); */
+  }
+
+  .card-bg-5 {
+    background-color:rgba(54, 162, 235, 0.35);
+    /* background-color: rgba(112, 171, 135, 0.5); */
+  }
+
+  .card-def{
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+  }
+
+  .defpic-container{
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 15vw;
+  }
+  
+  .defpic-img {
+    transform: scale(.45);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    margin-left: -5%;
+    margin-top: -40%;
+    height: auto;
+  }
+
+  .bar-chart {
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: scale(1.0);
+    margin-bottom: 2%;
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1%;
+    border-radius: 25px;
+  }
+
+  .pie-chart {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: -25%;
+    transform: scale(1.0);
+    margin-bottom: 2%;
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 25px;
+  }
+
+  .sw-section{
+    margin-top: 5%;
+    margin-bottom: 25%;
+  }
+
+  .sw-title{
+    font-size: 8vw;
+    text-align: center;
+    margin-top: -.25%;
+  }
+
+  .sw-card {
+    font-size: 4vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 5vw;
+  }
+
+  .strengths-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .ambig-card{
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .summary-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -20%;
+  }
+
+  .summary-card {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 25px;
+  }
+
+  .summary-title {
+    text-align: center;
+    font-size: 8vw;
+    margin-top: -.25%;
+  }
+
+  .summary-text {
+    font-size: 4vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 4vw;
+  }
+
+  .tips-section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+  }
+
+  .tips-title {
+    font-size: 8vw;
+    margin-top: -1%;
+    text-align: center;
+  }
+
+  .tips-text {
+    font-size: 4vw;
+    text-align: center;
+    line-height: 2vh;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .tips-card {
+    background-color: rgba(29, 37, 84, 0.045);
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    border-radius: 25px;
+    margin-top: 5vw;
+  }
+
+  .meditate-container{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 20vw;
+  }
+  
+  .meditate-img {
+    transform: scale(1.1);
+    z-index: 2000;
+    position: absolute; 
+    margin-top: -10%;
+    margin-left: -7%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50vw;
+  }
+
+  .last-pill-container{
+    margin-left: 47%;
+    margin-right: 5%;
+    margin-top: -22%;
+    margin-bottom: 25%;
+  }
+  
+  .right-pill-img {
+    margin-right: 30%; 
+    margin-bottom: -20%;
+    padding-top: 25%;
+    padding-bottom: 120%;   
+    animation: bgcolor 10s infinite;
+    border-radius: 8vw;
+  }
+
+  .bar-chart {
+    display: none;
+  }
+
+  .def-text {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  /* .footer-section {
+    margin-top: 15%;
+  } */
+
+}
+
+  

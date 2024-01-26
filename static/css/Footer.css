@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@keyframes footercolor {
+    0%{background-color:rgb(235, 133, 75, .9);}
+    50%{background-color:rgb(223, 83, 83, .9);}
+    100% {background-color: rgb(235, 133, 75, .9);}
+  }
+
+@media screen and (min-width: 900px) {
+
+.footer-card{
+    padding-top: 5vw;
+    padding-bottom: .25vw;
+    background-color: rgb(235, 133, 75, .9);
+    animation: footercolor 7s infinite;
+}
+
+.footer-div{
+    width: 106%;
+    overflow: hidden;
+    position: absolute;
+    margin-left: -5%;
+}
+
+.footer-logo-container{
+    position: relative;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.footer-logo-img{
+    transform: scale(.23);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    margin-top: -63%;
+    margin-left: 287%;
+    opacity: 90%;
+}
+
+.footer-left-section{
+    margin-left: 9%;
+    margin-right: 65%;
+    margin-top: -3%;
+}
+
+.footer-title{
+    font-size: 2.5vw;
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-text {
+    font-size: 1.15vw;
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.3vw;
+}
+
+.footer-right-section {
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-top: -21%;
+    padding-bottom: 3%;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25px;
+  }
+  
+  .fa:hover {
+      transform: scale(2.3);
+  }
+  
+  .fa-twitter {
+    background: transparent;
+    color: #f6ebe3;
+    transform: scale(2);
+    margin-left: 1%;
+  }
+
+  .socials {
+    margin-top: 13%;
+  }
+
+  .email-text {
+    color: #f6ebe3 !important;
+  }
+
+  .copyright {
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 47%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-card{
+    padding-top: 5vw;
+    padding-bottom: 18vw;
+    background-color: rgb(235, 133, 75, .9);
+    animation: footercolor 7s infinite;
+}
+
+.footer-div{
+    width: 106%;
+    overflow: hidden;
+    position: absolute;
+    margin-left: -5%;
+}
+
+.footer-logo-container{
+    position: relative;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.footer-logo-img{
+    transform: scale(.23);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    margin-top: 17%;
+    opacity: 90%;
+}
+
+.footer-left-section{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -3%;
+}
+
+.footer-title{
+    font-size: 7vw;
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 3.5vw;
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 4vw;
+    text-align: center;
+}
+
+.footer-right-section {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 0%;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25px;
+  }
+  
+  .fa:hover {
+      transform: scale(2.3);
+  }
+  
+  .fa-twitter {
+    background: transparent;
+    color: #f6ebe3;
+    transform: scale(2.25);
+    margin-left: 1%;
+  }
+
+  .socials {
+    margin-top: 10%;
+  }
+
+  .email-text {
+    color: #f6ebe3 !important;
+  }
+
+  .copyright {
+    color: #f6ebe3;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 8%;
+    /* padding-bottom: 60%; */
+  }
+}

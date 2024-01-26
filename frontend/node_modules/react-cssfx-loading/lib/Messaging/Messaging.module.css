@@ -1,0 +1,32 @@
+.balls {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: calc(var(--width) * 0.5);
+}
+
+.balls div {
+  width: var(--width);
+  height: var(--height);
+  border-radius: 50%;
+  background-color: var(--color);
+  transform: translateY(-100%);
+  animation: wave var(--duration) ease-in-out alternate infinite;
+}
+
+.balls div:nth-of-type(1) {
+  animation-delay: calc(var(--duration) * -0.5);
+}
+
+.balls div:nth-of-type(2) {
+  animation-delay: calc(var(--duration) * -0.25);
+}
+
+@keyframes wave {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}

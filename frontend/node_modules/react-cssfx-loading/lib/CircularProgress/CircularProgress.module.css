@@ -1,0 +1,36 @@
+.svg {
+  width: var(--width);
+  height: var(--height);
+  transform-origin: center;
+  animation: rotate var(--duration) linear infinite;
+}
+
+.circle {
+  fill: none;
+  stroke: var(--color);
+  stroke-width: 3;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash calc(var(--duration) * 3 / 4) ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}

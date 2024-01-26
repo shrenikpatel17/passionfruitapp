@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@media screen and (min-width: 900px) {
+
+.logo{
+    color: #34354f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2vw;
+    margin-left: 7.5%;
+    margin-top: 2vw;
+}
+
+.logo-img-container {
+    position: relative;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+  
+  .logo-img {
+    transform: scale(.0675);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    margin-top: -49%;
+    margin-left: -45.5%;
+  }
+
+  .logo-img:hover{
+    transform: scale(.07);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo{
+    color: #34354f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7vw;
+    margin-left: 35%;
+    margin-top: -2vw;
+
+}
+
+.logo-img-container {
+    position: relative;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 5vw
+}
+  
+  .logo-img {
+    transform: scale(.25);
+    z-index: 2000;
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    margin-top: -49%;
+    margin-left: -22%;
+  }
+}

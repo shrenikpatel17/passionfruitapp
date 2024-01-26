@@ -1,0 +1,20 @@
+.box {
+  perspective: 120px;
+}
+
+.plane {
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--color);
+  transform: rotate(0);
+  animation: flip var(--duration) infinite;
+}
+
+@keyframes flip {
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(180deg) rotateX(180deg);
+  }
+}
